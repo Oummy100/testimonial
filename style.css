@@ -45,32 +45,37 @@ h1{
 h3{
     font-size: 1.2rem;
 }
-section {
 
-    padding: 2rem;
-}
 i{
     color: var(--Stars);
     font-size: 1.2rem;
 }
-.sectionCard {
+
+.border {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    border-radius: 15px;
     border-width: 5px 0 0 5px;
     border-style: inset outset;
     border-color: transparent;
     border-image: var(--Testimonial-Border-Colors) 1;
     box-shadow: 10px 5px 5px  var(--Testimonial-Card-Shadow);
     background: white;
-    transition: all 0.3s ease;
+
+    padding: 2rem;
+    height: 100%;
 }
 
 .sectionCard:hover{
 box-shadow: 20px 15px 15px  var(--Testimonial-Card-Shadow-hover);
 animation: fadeInUp 0,6s ease forwards;
 transform: translateY(-15px);
+}
+
+.sectionCard{
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
 
 img {
