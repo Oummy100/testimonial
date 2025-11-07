@@ -197,4 +197,31 @@ Grid-template-rows adaptées pour mobile.
 
 sectionCard:hover utilise transform et animation pour effet d’élévation et d’apparition fluide.
 
+
+## Captures
+
+### Ecran 1440px
+
+![Responsive](captures/Screenshot1.png)
+
+### Ecran 1024px
+
+![Responsive](captures/Screenshot2.png)
+
+### Ecran 768px
+
+![Responsive](captures/Screenshot3.png)
+
+### Ecran 425px
+
+![Responsive](captures/Screenshot4.png)
+
+### Ecran 375px
+
+![Responsive](captures/Screenshot5.png)
+
+### Ecran 320px
+
+![Responsive](captures/Screenshot6.png)
+
 ## GitHub Page
