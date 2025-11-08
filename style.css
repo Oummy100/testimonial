@@ -53,6 +53,14 @@ i {
     font-size: 1.2rem;
 }
 
+p{
+    color: var(--Quote-Text);
+}
+
+.italic{
+    font-style: italic;
+}
+
 .border {
     display: flex;
     flex-direction: column;
@@ -117,6 +125,7 @@ header section {
 
 header p {
     font-size: 0.9rem;
+    color: var(--User-Info-Paragraph);
 }
 
 .section2 {
