@@ -58,12 +58,11 @@ i {
     flex-direction: column;
     gap: 3rem;
     border-width: 5px 0 0 5px;
-    border-style: inset outset;
+    border-style: outset;
     border-color: transparent;
     border-image: var(--Testimonial-Border-Colors) 1;
     box-shadow: 10px 5px 5px var(--Testimonial-Card-Shadow);
     background: white;
-
     padding: 2rem;
     height: 100%;
 }
